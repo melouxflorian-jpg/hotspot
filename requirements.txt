@@ -1,0 +1,22 @@
+# ── Core web framework ─────────────────────────────────────────
+flask>=2.3.0
+flask-cors>=4.0.0
+werkzeug>=2.3.0
+
+# ── WSGI server (production) ───────────────────────────────────
+gunicorn>=21.2.0
+
+# ── Numerical / signal processing ─────────────────────────────
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# ── Cloud storage ──────────────────────────────────────────────
+supabase>=2.3.0
+
+# ── Environment management ─────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Optional: video metadata via OpenCV (fallback if ffprobe absent) ──
+# opencv-python-headless>=4.8.0
